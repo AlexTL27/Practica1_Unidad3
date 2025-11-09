@@ -1,0 +1,46 @@
+/* --- RESET GLOBAL --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- BASE GENERAL --- */
+html {
+
+  font-size: 16px;         /* base para rem */
+  font-family: sans-serif;
+}
+
+
+
+/* Sección del form */
+body {
+  height: 100vh; /* ocupa toda la pantalla */
+  display: flex;
+  flex-direction: column; /* para apilar el título, imagen y formulario */
+ /* centra verticalmente */
+  align-items: center; /* centra horizontalmente */
+  background-color: #f4f4f4; /* opcional */
+  font-family: sans-serif;
+  
+  
+}
+
+.title-container{
+  margin-bottom: 20px;
+}
+
+.title-container h2{
+  font-size: 2rem;
+}
+
+.card-image {
+  border: 1px solid black;
+  margin-bottom: 40px;
+}
+.card-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
